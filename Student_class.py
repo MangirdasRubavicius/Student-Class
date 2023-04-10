@@ -14,7 +14,9 @@ def add_score(self, score:int):
 
 
 def show_scores():
-    print(exam_scores)
+    for score in self.exam_scores:
+            print(score, end=" ")
+        print()
 
 def score_average(self):
     print(sum(self.exam_scores)+len(self.exam_scores))
