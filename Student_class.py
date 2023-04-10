@@ -54,3 +54,18 @@ p3.add_score(55)
 p4.add_score(95)
 p4.add_score(80)
 p4.add_score(100)
+
+print("Average score:", s1.score_average())
+print("Course passed?", s1.course_passed())
+
+
+print("Average score:", s2.score_average())
+print("Course passed?", s2.course_passed())
+
+
+print("Average score:", s3.score_average())
+print("Course passed?", s3.course_passed())
+
+
+print("Average score:", s4.score_average())
+print("Course passed?", s4.course_passed())
