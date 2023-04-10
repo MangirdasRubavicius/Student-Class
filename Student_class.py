@@ -37,4 +37,8 @@ p2 = Student(2, "Linda", "Jones", [25, 65,80,75])
 p3 = Student(3, "Jason", "Kirk", [50, 60,55])
 p4 = Student(4, "Jane", "Doe", [95, 80,100])
 
+show_scores()
+
+course_passed()
+
 add_score(50)
