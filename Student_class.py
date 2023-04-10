@@ -1,38 +1,38 @@
 total_scores = 0
 class Student:
-def __init__(self, student_id: int, first_name: str, last_name: str):
-        self.first_name = first_name
-        self.last_name = last_name
-        self.student_id = student_id
-        self.exam_scores = []
+    def __init__(self, student_id: int, first_name: str, last_name: str):
+            self.first_name = first_name
+            self.last_name = last_name
+            self.student_id = student_id
+            self.exam_scores = []
 
-def add_score(self, score:int):
-    if score >= 0 and score <= 100:
-        exam_scores.append(score)
-    else:
-        return None
-
-
-def show_scores():
-    for score in self.exam_scores:
-            print(score, end=" ")
-        print()
-
-def score_average(self):
-    print(sum(self.exam_scores)+len(self.exam_scores))
-
-def course_passed():
-    for i in exam_scores.values():
-        if exam_scores.values(i) > 60:
-            total_scores = total_scores + 1
+    def add_score(self, score:int):
+        if score >= 0 and score <= 100:
+            exam_scores.append(score)
         else:
-            return
+            return None
 
-    if total_scores >= 3:
-        return True
 
-    else:
-        return False
+    def show_scores():
+        for score in self.exam_scores:
+                print(score, end=" ")
+                print()
+
+    def score_average(self):
+        print(sum(self.exam_scores)+len(self.exam_scores))
+
+    def course_passed():
+        for i in exam_scores.values():
+            if exam_scores.values(i) > 60:
+                total_scores = total_scores + 1
+            else:
+                return
+
+        if total_scores >= 3:
+            return True
+
+        else:
+            return False
 
 p1 = Student(1, "John", "Doe")
 p2 = Student(2, "Linda", "Jones")
